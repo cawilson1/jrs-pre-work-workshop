@@ -125,6 +125,8 @@ console.log(title.substring(7,2))    // "Brave"
 
 The `Number` JavaScript object allows you to work with numerical values.
 
+You can use javascript numbers to do mathematical operations like add, subtract, multiply, divide, etc. Numbers can be integers, whole numbers, or decimals. 
+
 > [MDN JavaScript Reference- Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
 #### Type Conversion
