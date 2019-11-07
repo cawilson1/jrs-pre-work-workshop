@@ -159,6 +159,18 @@ console.log(Number.isNaN(result))   // false
 console.log(Number.isNaN(NaN))      // true
 ```
 
+
+## Operators
+
+Combine and transform values with operators:
+
+- Arithmetic + - * % /
+- String concatenation (+)  
+- Comparison (==, !=, ===, !==, <, >, <=, >=)
+- Logic (&&, ||)
+- Unary (- to negate a number, ! to negate logically, and typeof to find a value’s type)
+- Ternary (?:) to pick one of two values based on a third value.
+
 ## Functions
 Functions are blocks of code that often (not always) have a name. This means you can give a block of code a name and reuse that same block of code later by just "calling" the function's name! Functions make easier to write, read, and understand.
 
@@ -175,16 +187,67 @@ add5and6()
 
 You can see that after you give the function a name, you can use it again multiple times by just saying the name and putting parentheses after.
 
-## Operators
 
-Combine and transform values with operators:
+### Variables
 
-- Arithmetic + - * % /
-- String concatenation (+)  
-- Comparison (==, !=, ===, !==, <, >, <=, >=)
-- Logic (&&, ||)
-- Unary (- to negate a number, ! to negate logically, and typeof to find a value’s type)
-- Ternary (?:) to pick one of two values based on a third value.
+- Variables are used within a computer program to remember things.  It’s how a program keep its internal state.  
+
+- Use variables to catch and hold values.
+
+```
+var caught = 5 * 5;
+```
+
+- The keyword `var` indicates we want to define a variable. It is followed by the name of the variable and, if we want to immediately give it a value, by an `=` operator and an expression:
+
+```
+var favColor = "blue"
+var favColor = prompt("What is your favorite color?", "blue")
+```
+
+After a variable has been defined, its name can be used as an expression:
+
+```
+var ten = 10;
+console.log(ten * ten);
+```
+
+- A variable _points_ at a value.  It is **NOT** tied to that value forever.
+- The `=` operator can be used at any time on existing variables to disconnect them from their current value and have them point to a new one.
+
+Try the following in the console within your web browser or codepen.
+
+```
+var favColor = "blue"
+console.log(favColor)
+favColor = "yellow"
+console.log(favColor)
+```
+
+- When you define a variable without giving it a value, there's nothing to grasp, so it ends in thin air.
+
+- If you ask for the value of an empty variable, you’ll get the value "undefined".  
+
+```
+var favColor2
+console.log(favColor2)
+favColor2 = favColor
+console.log(favColor2)
+```
+
+
+There is a special type of variable that a function uses called parameter. When you call a function, you pass in values to its parameters. Now you can decide as you go which values to give a function. Lets rewrite our add function from earlier to use parameters.
+
+```
+function add(x,y){
+  console.log(x + y)
+  }
+  
+add(4,6)//gives 10
+add(3,2)//gives 5
+```
+
+You can imagine writing a similar function for subtract, multiply and divide.
 
 ### DEMO Add Operator
 
@@ -258,9 +321,6 @@ console.log("Ex.8 Equality", 0 === false)         // "Ex.8 Equality" false
 console.log("Ex.9 Equality", true === true)       // "Ex.9 Equality" true
 ```
 
-### Logic operators
-
-
 
 
 ## Program Structure
@@ -282,53 +342,6 @@ A fragment of code that produces a value is called an _expression_. Combine expr
 - A _statement_ corresponds to a full sentence in a human language. A program is simply a list of statements.  The simplest kind of statement is an expression with a semicolon after it.
 - A statement could change a value on the computer screen.
 - A statement could change the internal state of the machine in a way that will affect the statements that come after it. These changes are called _side effects_.
-
-### Variables
-
-- Variables are used within a computer program to remember things.  It’s how a program keep its internal state.  
-
-- Use variables to catch and hold values.
-
-```
-var caught = 5 * 5;
-```
-
-- The keyword `var` indicates we want to define a variable. It is followed by the name of the variable and, if we want to immediately give it a value, by an `=` operator and an expression:
-
-```
-var favColor = "blue"
-var favColor = prompt("What is your favorite color?", "blue")
-```
-
-After a variable has been defined, its name can be used as an expression:
-
-```
-var ten = 10;
-console.log(ten * ten);
-```
-
-- A variable _points_ at a value.  It is **NOT** tied to that value forever.
-- The `=` operator can be used at any time on existing variables to disconnect them from their current value and have them point to a new one.
-
-Try the following in the console within your web browser or codepen.
-
-```
-var favColor = "blue"
-console.log(favColor)
-favColor = "yellow"
-console.log(favColor)
-```
-
-- When you define a variable without giving it a value, there's nothing to grasp, so it ends in thin air.
-
-- If you ask for the value of an empty variable, you’ll get the value "undefined".  
-
-```
-var favColor2
-console.log(favColor2)
-favColor2 = favColor
-console.log(favColor2)
-```
 
 ### Environment
 
