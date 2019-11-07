@@ -461,11 +461,6 @@ if (x < 1) {
 }
 ```
 
-### DEMO - COMPARE
-
-For this demo I will create a `fatcat()` function that prompts for a cat's weight.  We will store the weight to a variable. We will use `if` and `else if` and `else` to compare and `console.log()` to make a comment about the cat's weight.
-
-- The `prompt()` function can be used to ask an “open” question. The first argument is the question, the second one is the text that the user starts with. A line of text can be typed into the dialog window, and the function will return this text as a string.
 
 ### DEMO - SQUARE
 
