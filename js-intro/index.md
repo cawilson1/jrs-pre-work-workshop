@@ -71,8 +71,6 @@ myString.length      //returns 3
 
 - The `split()` method splits a String object into an array of strings by separating the string into substrings.
 
-CodePen: http://codepen.io/tripott/pen/wgJEBN
-
 ```
 var braveNewWorldQuote = "There's always soma to calm your anger, to reconcile you to your enemies, to make you patient and long-suffering. In the past you could only accomplish these things by making a great effort and after years of hard moral training. Now, you swallow two or three half-gramme tablets, and there you are. Anybody can be virtuous now. You can carry at least half your morality about in a bottle."
 
