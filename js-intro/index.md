@@ -32,41 +32,9 @@ Every value has a type that determines its role. There are six basic types of va
 - functions
 - undefined values
 
-### numbers
 
-The `Number` JavaScript object allows you to work with numerical values.
 
-> [MDN JavaScript Reference- Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
-#### Type Conversion
-
-`Number` can be used to perform a type conversion.  You can convert strings to numbers.
-
-```
-Number("123")     // 123
-Number("12.3")    // 12.3
-Number("")        // 0
-```
-
-If the argument cannot be converted into a number, it returns `NaN`.
-
-```
-Number("foo")     // NaN
-```
-
-#### `Number.isNaN()`
-
-Use `Number.isNaN()` to determine whether the passed value is `NaN`.  If the given value is NaN, `true` will be be returned.
-
-CodePen: http://codepen.io/tripott/pen/LxWgGM
-
-```
-// Is the value passed equal to NaN?
-console.log(Number.isNaN(15))       // false
-console.log(Number.isNaN("Doggy"))  // false
-console.log(Number.isNaN(result))   // false
-console.log(Number.isNaN(NaN))      // true
-```
 
 ### strings
 
@@ -150,6 +118,44 @@ console.log(title.substring(2,7))    // "Brave"
 console.log(title.substring(7,2))    // "Brave"
 ```
 
+
+
+
+### Numbers
+
+The `Number` JavaScript object allows you to work with numerical values.
+
+> [MDN JavaScript Reference- Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+
+#### Type Conversion
+
+`Number` can be used to perform a type conversion.  You can convert strings to numbers.
+
+```
+Number("123")     // 123
+Number("12.3")    // 12.3
+Number("")        // 0
+```
+
+If the argument cannot be converted into a number, it returns `NaN`.
+
+```
+Number("foo")     // NaN
+```
+
+#### `Number.isNaN()`
+
+Use `Number.isNaN()` to determine whether the passed value is `NaN`.  If the given value is NaN, `true` will be be returned.
+
+CodePen: http://codepen.io/tripott/pen/LxWgGM
+
+```
+// Is the value passed equal to NaN?
+console.log(Number.isNaN(15))       // false
+console.log(Number.isNaN("Doggy"))  // false
+console.log(Number.isNaN(result))   // false
+console.log(Number.isNaN(NaN))      // true
+```
 ## Operators
 
 Combine and transform values with operators:
