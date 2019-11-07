@@ -158,6 +158,23 @@ console.log(Number.isNaN("Doggy"))  // false
 console.log(Number.isNaN(result))   // false
 console.log(Number.isNaN(NaN))      // true
 ```
+
+## Functions
+Functions are blocks of code that often (not always) have a name. This means you can give a block of code a name and reuse that same block of code later by just "calling" the function's name! Functions make easier to write, read, and understand.
+
+Here is a simple example of a function that adds together two numbers, 5 and 6.
+
+```
+function add5and6(){
+  console.log(5 + 6)
+}
+
+add5and6()
+add5and6()
+```
+
+You can see that after you give the function a name, you can use it again multiple times by just saying the name and putting parentheses after.
+
 ## Operators
 
 Combine and transform values with operators:
