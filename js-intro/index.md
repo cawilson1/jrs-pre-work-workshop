@@ -6,7 +6,7 @@
 
 JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.  Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production; the majority of websites employ it, and all modern Web browsers support it without the need for plug-ins.
 
-First things first: Create a Codepen account and connect to the wifi.
+First things first: Connect to the wifi, create a codepen account, and go to the link at the top of this page.
 
 JavaScript is also used in environments that are not Web-based.  JavaScript runs everywhere from a web browser to a web server to a database to a drone to a [refrigerator](https://github.com/GEMakers/gea-plugin-refrigerator).  
 
